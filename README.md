@@ -51,7 +51,7 @@ und dort abgerufen werden. Für die Umsetzung der mobilen Applikation wurde
 erneut die Entwicklungsplattform Unity verwendet. Diese Entwicklungsumgebung 
 wurde ausgewählt, weil sich plattformübergreifende Augmented-Reality-Anwendungen mit internen Funktionen realisieren lassen und weil eine Schnittstelle zum 
 IoT-Server durch einen quelloffenen Softwarebaustein (M2MQTT for Unity) mit verhältnismäßig geringem Aufwand hergestellt werden kann. 
-Um die grundlegenden Konzepte der Applikation testen zu können, wurde die Funktionsweise wie nachfolgend beschrieben implementiert: Beim Start der Applikation scannt die geräteinterne Kamera die Umgebung und markiert Bereiche, die als 
+Um die grundlegenden Konzepte der Applikation testen zu können, wurde die Funktionsweise wie nachfolgend beschrieben implementiert: Beim Start der Applikation scannt die geräteinterne Kamera die Umgebung und markiert Bereiche, die als 
 planare Flächen erkannt wurden. Beim Drücken auf das Display (bzw. auf einen Bereich in den markierten planaren Flächen) erscheint an dieser Stelle ein Hologramm 
 und es wird eine Verbindung zum IoT-Server aufgebaut von dem (Sensor-)Daten abgerufen werden. Das Hologramm stellt eine Visualisierung dieser Daten dar. Im 
 bisherigen Prototyp wurden die Daten auf Servern eines Dienstleisters gehostet. 
